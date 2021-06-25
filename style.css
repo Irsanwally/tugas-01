@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: #148F77;
+}
+.medsos {
+    padding:15px 0;
+    background-color: #148F77;
+
+}
+.medsos ul li {
+    display: inline-block;
+    color: #fff;
+    margin-right: 20px;
+}
+.container {
+    width:80% ;
+    margin:0 auto;
+}
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+header h1 {
+  float: left;
+  padding:10px 0;
+  color: #148F77;  
+}
+header h1{
+    padding:10px 10px;
+    display: block;
+}
+header h1 a:hover {
+    background-color: #148F77;
+    color: #fff;
+}
+header ul {
+    float: right;
+}
+header ul li {
+    display:inline-block;
+}
+header ul li a{
+    padding:20px 20px;
+    display: block;
+    color:  #148F77;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown:hover .isi-dropdown {
+    display: block;
+}
+
+.isi-dropdown a:hover {
+    color: #fff !important;
+}
+
+.isi-dropdown {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #f9f9f9;
+}
+
+.isi-dropdown a {
+    color: #148F77 !important;
+}
+
+.isi-dropdown a:hover {
+    color: #232323 !important;
+    background: #f3f3f3 !important;
+}
+.active {
+    background-color: #148F77;
+    color: #fff;
+}
+.banner {
+    height: 20vh;
+    background-image: url('../images/z.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h2{
+    color: #ffff;
+    z-index: 1;
+    padding: 10px 5px;
+    
+}
+section{
+    padding:50px 0;
+}
+section h3{
+    text-align: center;
+    padding:30px 0;
+    color: #148F77;
+    margin-bottom: 20px;
+}
+.about,
+.service {
+    padding-bottom:100px ;
+}
+.about p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.kotak, .bulat {
+    padding-left: 0,8%;
+}
+img {
+    width: 25vh;
+    height: 30vh;
+    border-radius: 20%;
+}
+.list-produk
+{
+    padding: 10px;
+    float: left;
+    width: 200px;
+    margin: 5px;
+} 
+.list-produk img
+{
+    width: 100%;
+    height: 175px;
+    display: block;
+    margin-bottom: 5px;
+}
+.about { 
+    background-color: #fff;
+}
+.service { 
+    background-color: rgb(228, 222, 222);
+}
+.produck { 
+    background-color: white;
+}
+.col-4 {
+    width:25%;
+    padding:20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: center;
+}
+section h4{
+    text-align: center;
+    padding:30px 0;
+    color: #148F77;
+    margin-bottom: 20px;
+}
+section h5{
+    text-align: center;
+    font-size: 15px;
+    color: #148F77;
+    margin-bottom: 20px;
+    padding-left: 1%;
+}
+section h6{
+    text-align: left;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 20px;
+    padding-left: 1%;
+}
+
+footer {
+    padding:15px 0;
+    background-color: #148F77;
+    color: #fff;
+    text-align: center;
+}
+.label  {
+    background-color: #148F77;
+    color: white;
+    padding: 20px;
+}
+@media screen and (max-width: 620px){
+    .container {
+        width:90% ;
+    }
+    header h1 {
+        text-align: center;
+        float: none;
+    }
+    header ul {
+        text-align: center;
+        float: none;
+    }
+    .box .col-4{
+        width:100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+}
